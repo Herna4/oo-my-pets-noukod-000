@@ -65,6 +65,7 @@ class Owner
 	 end
  end
 
+
  def sell_pets
    @pets.collect do |species, instances|
      instances.each do |animal|
